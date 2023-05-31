@@ -31,7 +31,7 @@ namespace WinFormsApp5
 
             b.setA(textBox2.Text);
 
-            label2.Text = b.getA();
+            label2.Text = b.getA2();
 
         }
 
@@ -53,6 +53,13 @@ namespace WinFormsApp5
             {
 
                 return a;
+
+            }
+
+            public string getA2()
+            {
+
+                return a + " <-- a";
 
             }
 
