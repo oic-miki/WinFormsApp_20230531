@@ -17,9 +17,7 @@ namespace WinFormsApp5
             // DOA
             a = textBox1.Text;
 
-            a += " <-- a";
-
-            label1.Text = a;
+            label1.Text = a + " <-- a";
 
         }
 
